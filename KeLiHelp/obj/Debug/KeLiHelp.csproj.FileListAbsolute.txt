@@ -30,3 +30,13 @@ D:\KeLi\KeLi_2k\KeLiHelp\obj\Debug\KeLiHelp.csproj.GenerateResource.cache
 D:\KeLi\KeLi_2k\KeLiHelp\obj\Debug\KeLiHelp.csproj.CoreCompileInputs.cache
 D:\KeLi\KeLi_2k\KeLiHelp\obj\Debug\可莉来帮忙.exe
 D:\KeLi\KeLi_2k\KeLiHelp\obj\Debug\可莉来帮忙.pdb
+D:\KeLi\KeLi_Help\KeLiHelp\bin\Debug\可莉来帮忙.exe.config
+D:\KeLi\KeLi_Help\KeLiHelp\bin\Debug\可莉来帮忙.exe
+D:\KeLi\KeLi_Help\KeLiHelp\bin\Debug\可莉来帮忙.pdb
+D:\KeLi\KeLi_Help\KeLiHelp\obj\Debug\KeLiHelp.csproj.AssemblyReference.cache
+D:\KeLi\KeLi_Help\KeLiHelp\obj\Debug\KeLiHelp.KeLiHelpMain.resources
+D:\KeLi\KeLi_Help\KeLiHelp\obj\Debug\KeLiHelp.Properties.Resources.resources
+D:\KeLi\KeLi_Help\KeLiHelp\obj\Debug\KeLiHelp.csproj.GenerateResource.cache
+D:\KeLi\KeLi_Help\KeLiHelp\obj\Debug\KeLiHelp.csproj.CoreCompileInputs.cache
+D:\KeLi\KeLi_Help\KeLiHelp\obj\Debug\可莉来帮忙.exe
+D:\KeLi\KeLi_Help\KeLiHelp\obj\Debug\可莉来帮忙.pdb

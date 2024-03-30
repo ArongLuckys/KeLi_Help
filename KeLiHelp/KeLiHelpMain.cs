@@ -418,5 +418,9 @@ namespace KeLiHelp
 
 		}
 
+		private void button2_Click(object sender, EventArgs e)
+		{
+			Process.Start("https://github.com/ArongLuckys/KeLi_Help");
+		}
 	}
 }
