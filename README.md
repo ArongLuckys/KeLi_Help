@@ -11,3 +11,7 @@
 
 * ## 软件游戏内部截图
 * ![image](https://github.com/ArongLuckys/KeLi_Help/assets/129584218/b7d62ffb-3a2c-4b72-b4c4-a4c3e2d776cc)
+
+## 已知BUG
+1.在16：9的分辨率下可能有误触问题
+2.在非指针情况下win桌面没有鼠标
