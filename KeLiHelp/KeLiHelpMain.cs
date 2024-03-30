@@ -111,8 +111,8 @@ namespace KeLiHelp
 			//1920*1080 (16:9)
 			cb1.Play_White_Point = new Point(60, 48);
 			cb1.Play_Black_Point = new Point(72, 48);
-			cb1.Dialog_Point1 = new Point(1300, 800);
-			cb1.Dialog_Point2 = new Point(1300, 785);
+			cb1.Dialog_Point1 = new Point(1300, 810);
+			cb1.Dialog_Point2 = new Point(1300, 795);
 			cb1.Gather_Point1 = new Point(0, 0);
 			cb1.Gather_Point2 = new Point(0, 0);
 
@@ -199,13 +199,13 @@ namespace KeLiHelp
 				//存在 自动播放按钮时
 				if (GetColorAtPosition(UserSet.Play_White_Point, Play_White_Color_Default) && GetColorAtPosition(UserSet.Play_Black_Point, Play_Black_Color_Default))
 				{
-					MOUSEMain(UserSet.Dialog_Point1);
+					MOUSEMain(new Point(UserSet.Dialog_Point1.X + 5, UserSet.Dialog_Point1.Y));
 				}
 
 				//存在 对话框选项时
 				if (GetColorAtPosition(UserSet.Dialog_Point1, Dialog_Color_Default) && GetColorAtPosition(UserSet.Dialog_Point2, Dialog_Color_Default))
 				{
-					MOUSEMain(UserSet.Dialog_Point1);
+					MOUSEMain(new Point(UserSet.Dialog_Point1.X + 5, UserSet.Dialog_Point1.Y));
 				}
 			}
 
@@ -408,6 +408,12 @@ namespace KeLiHelp
 
 		private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
 		{
+			switch (comboBox1.SelectedIndex)
+			{
+				case 0: { UserSet = cb1; }; break;
+				case 1: { UserSet = cb2; }; break;
+			}
+
 			Properties.Settings.Default.Set = comboBox1.SelectedIndex;
 			Properties.Settings.Default.Save();
 		}
